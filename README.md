@@ -12,7 +12,7 @@ To make this tool accessible to healthcare professionals and researchers, I have
 
 ## Screenshot
 
-![Web App Screenshot](https://github.com/nawaz0x1/X-Ray-Classification/blob/master/Screenshot/Screenshot%201.png)
+![Web App Screenshot](https://github.com/Samiul-Islam12/X-Ray-Classification/blob/main/Screenshot/Screenshot%201.png)
 
 ## Installation
 
