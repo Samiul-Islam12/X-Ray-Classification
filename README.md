@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/nawaz0x1/X-Ray-Classification.git
+    git clone https://github.com/Samiul-Islam12/X-Ray-Classification
     cd X-Ray-Classification
     ```
 
