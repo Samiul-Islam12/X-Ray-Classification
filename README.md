@@ -1,47 +1,24 @@
-# COVID-19, Pneumonia, and Normal Classification from X-ray Images
+# Image Caption Generator Using Deep Learning
 
-Accurate diagnosis of respiratory conditions is crucial for effective treatment and patient care. This project leverages deep learning techniques to classify chest X-ray images into three categories:
+Effective image understanding is a cornerstone of modern AI applications. This project focuses on generating natural language captions for images, blending the power of computer vision and natural language processing. By leveraging the Flickr8k and COCO datasets, the model learns to associate visual features with descriptive text.
 
-- COVID-19
-- Pneumonia
-- Normal
 
-The model combines the powerful feature extraction capabilities of ResNet50 with the sequence processing strengths of Gated Recurrent Units (GRUs). This hybrid architecture ensures high accuracy in distinguishing between different types of lung conditions.
+The model is deployed live on [Hugging Face Spaces (https://huggingface.co/spaces/sami-2429/ImageCaptionGenarator), providing an intuitive interface for users to upload images and receive automatically generated captions. This implementation makes the technology accessible to developers and researchers alike.
 
-To make this tool accessible to healthcare professionals and researchers, I have developed a user-friendly web application using [Streamlit](https://streamlit.io/). This application allows users to upload X-ray images and receive instant classification results, aiding in quick and informed decision-making.
 
 ## Screenshot
 
 ![Web App Screenshot](https://github.com/Samiul-Islam12/X-Ray-Classification/blob/main/Screenshot/Screenshot%201.png)
 
-## Installation
+## To run click here:
+https://huggingface.co/spaces/sami-2429/ImageCaptionGenarator
 
-To run this project locally, follow these steps:
 
-1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/Samiul-Islam12/X-Ray-Classification
-    cd X-Ray-Classification
-    ```
+3. Download the `image_captioning_coco_weights.h5` and `image_captioning_transformer_weights_2.h5` file from the [GDrive]([https://drive.google.com/file/d/1OIo7oakSxPU3K51Cqnz6Dk1hsF16JuOu](https://drive.google.com/drive/folders/1J_yJHmF3ePh0yA6CpU5bNLR2lBYw5tt8?usp=sharing)) link and replace it with `image_captioning_coco_weights.h5` and `image_captioning_transformer_weights_2.h5`.
 
-2. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Download the `model.keras` file from the [GDrive](https://drive.google.com/file/d/1OIo7oakSxPU3K51Cqnz6Dk1hsF16JuOu) link and replace it with `Model/model.keras`.
-
-## Usage
-
-To run the Streamlit web app:
-
-```bash
-streamlit run App.py
-```
 
 ## Acknowledgement
 
-The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/amanullahasraf/covid19-pneumonia-normal-chest-xray-pa-dataset).
+The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/adityajn105/flickr8k). and (https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset)
 
